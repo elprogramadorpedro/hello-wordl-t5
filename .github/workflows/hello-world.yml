@@ -6,6 +6,6 @@ jobs:
   steps:
    -run: echo "Ola mundo! sou teste de actions"
    -name: Check out repository code
-    uses: actions/checkout@v3 #copia os arquivos do projeto
+    uses: actions/checkout@v2 #copia os arquivos do projeto
    -name: List files
     run: ls ${{github.workspace}}
